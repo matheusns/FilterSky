@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/graphs.svg</file>
+        <file>icons/settings.svg</file>
+        <file>icons/transfer_function.svg</file>
+        <file>icons/plugging.svg</file>
+        <file>icons/logo_area 1.png</file>
+        <file>icons/filter_logo.png</file>
+        <file>icons/danger.svg</file>
+        <file>icons/warning.svg</file>
+        <file>icons/tools-and-utensils.svg</file>
+        <file>icons/tank.svg</file>
+        <file>icons/hot-thermometer.svg</file>
+        <file>icons/icon.svg</file>
+        <file>icons/gas-pipe.svg</file>
+        <file>icons/industrial-robot.svg</file>
+        <file>icons/malha_temperatura.jpg</file>
+        <file>icons/reply.svg</file>
+        <file>icons/computer.svg</file>
+        <file>icons/calculator.svg</file>
+    </qresource>
+</RCC>
