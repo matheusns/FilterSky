@@ -18,5 +18,11 @@
         <file>icons/reply.svg</file>
         <file>icons/computer.svg</file>
         <file>icons/calculator.svg</file>
+        <file>icons/welcome.svg</file>
+        <file>icons/valve.svg</file>
+        <file>icons/hand-pump.svg</file>
+        <file>icons/floor.svg</file>
+        <file>icons/gamepad.svg</file>
+        <file>icons/blocks.png</file>
     </qresource>
 </RCC>
