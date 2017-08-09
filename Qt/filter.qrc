@@ -24,5 +24,8 @@
         <file>icons/floor.svg</file>
         <file>icons/gamepad.svg</file>
         <file>icons/blocks.png</file>
+        <file>icons/malha_nivel.png</file>
+        <file>icons/malha_vazao.png</file>
+        <file>icons/malha_pressao.png</file>
     </qresource>
 </RCC>

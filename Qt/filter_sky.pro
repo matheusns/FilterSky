@@ -35,4 +35,5 @@ RESOURCES += \
 
 DISTFILES += \
     icons/hot-thermometer.svg \
-    icons/icon.svg
+    icons/icon.svg \
+    icons/malha_vazao.png
