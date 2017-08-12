@@ -77,7 +77,7 @@ pip-log.txt
 *.log
 *.sql
 *.sqlite
-*.vscode
+.vscode
 
 # OS generated files #
 ######################
