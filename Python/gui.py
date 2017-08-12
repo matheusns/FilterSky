@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Qt/filter_sky.ui'
+# Form implementation generated from reading ui file '../Qt/filter_sky.ui'
 #
-# Created: Tue Aug  8 22:28:55 2017
+# Created: Sat Aug 12 10:50:31 2017
 #      by: PyQt5 UI code generator 5.2.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -1626,11 +1626,16 @@ class Ui_filter_sky(object):
         self.gridLayout_37.addWidget(self.frame_64, 1, 1, 1, 1)
         self.stackedWidget.addWidget(self.TIC_TF)
         self.horizontalLayout_3.addWidget(self.stackedWidget)
-        self.gridLayout_2.addLayout(self.horizontalLayout_3, 0, 1, 1, 1)
+        self.gridLayout_2.addLayout(self.horizontalLayout_3, 0, 0, 1, 1)
         filter_sky.setCentralWidget(self.centralWidget)
 
         self.retranslateUi(filter_sky)
+        self.stackedWidget.setCurrentIndex(0)
         self.mainPage_powerButton.clicked.connect(filter_sky.systemPage)
+        self.pushButton_16.clicked.connect(filter_sky.temperatureMainPage)
+        self.pushButton_19.clicked.connect(filter_sky.pressureMainPage)
+        self.pushButton_15.clicked.connect(filter_sky.levelMainPage)
+        self.pushButton_20.clicked.connect(filter_sky.flowMainPage)
         QtCore.QMetaObject.connectSlotsByName(filter_sky)
 
     def retranslateUi(self, filter_sky):
@@ -1775,13 +1780,3 @@ class Ui_filter_sky(object):
         self.pushButton_155.setText(_translate("filter_sky", "SALVAR"))
 
 import filter_rc
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    filter_sky = QtWidgets.QMainWindow()
-    ui = Ui_filter_sky()
-    ui.setupUi(filter_sky)
-    filter_sky.show()
-    sys.exit(app.exec_())
-
