@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2017-08-13T10:48:28
+# Project created by QtCreator 2017-08-12T11:29:44
 #
 #-------------------------------------------------
 
@@ -8,16 +8,16 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = Tf_Definition
+TARGET = System_Definition
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        tfdefinition.cpp
+        systemdefinition.cpp
 
-HEADERS  += tfdefinition.h
+HEADERS  += systemdefinition.h
 
-FORMS    += tfdefinition.ui
+FORMS    += systemdefinition.ui
 
 RESOURCES += \
     ../Qt/filter.qrc
