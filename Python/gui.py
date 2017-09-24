@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file '../Qt/filter_sky.ui'
 #
-# Created: Sun Sep  3 20:45:34 2017
+# Created: Thu Sep 21 12:36:52 2017
 #      by: PyQt5 UI code generator 5.2.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -773,7 +773,7 @@ class Ui_filter_sky(object):
         filter_sky.setCentralWidget(self.centralWidget)
 
         self.retranslateUi(filter_sky)
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(3)
         self.pushButton_15.clicked.connect(filter_sky.levelMainPage)
         self.pushButton_16.clicked.connect(filter_sky.temperatureMainPage)
         self.pushButton_20.clicked.connect(filter_sky.flowMainPage)
