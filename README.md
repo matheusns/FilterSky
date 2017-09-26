@@ -7,11 +7,11 @@
 FilterSky is opensource software designed to assist students and professors in the simulation of digital filters applied to industrial systems and processes.</p>
 
 <p align="justify">
-Developed as a Área College project of scientific initiation by Matheus Nascimento, guided by Professor Oberdan Pinheiro, the software covers the areas of chemical process control, signal and system analysis and digital signal processing.</p>
+Developed as a Área College project of scientific initiation by Matheus Nascimento, guided by Professor Oberdan Pinheiro, the software covers the areas of chemical process control, signals and systems analysis and digital signals processing.</p>
 
 # Contents
 
-  * [Requirements](#Requirements)
+  * [Requirements](#requirements)
   * [Installation](#instala%C3%A7%C3%A3o)
   * [Usage ](#uso)
   * [Documentation](#documentação)
